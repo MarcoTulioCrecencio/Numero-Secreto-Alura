@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = []
-const numeroLimite = 100;
+const numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 
 let tentativas = 1
@@ -12,7 +12,7 @@ function exibirMensagemInicial(tag, texto) {
 
 function mensagensIniciais() {
     exibirMensagemInicial('h1', 'Bem Vindo ao jogo do numero secreto!')
-    exibirMensagemInicial('p', 'Informe um numero de 0 a 100:')
+    exibirMensagemInicial('p', 'Informe um numero de 0 a 50:')
 }
 mensagensIniciais()
 
